@@ -1,0 +1,31 @@
+    13370000b8c2:   0f 30                   wrmsr  
+    13370000b8c4:   c7 f8 40 00 00 00       xbegin 0x13370000b90a
+    13370000b8ca:   48 b8 11 11 11 11 11    movabs rax,0x111111111111
+    13370000b8d1:   11 00 00
+    13370000b8d4:   48 8b 00                mov    rax,QWORD PTR [rax]
+    13370000b8d7:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8da:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8dd:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8e0:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8e3:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8e6:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8e9:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8ec:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8ef:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8f2:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8f5:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8f8:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8fb:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b8fe:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b901:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b904:   48 8b 07                mov    rax,QWORD PTR [rdi]
+    13370000b907:   0f 01 d5                xend
+    13370000b90a:   48 89 07                mov    QWORD PTR [rdi],rax
+    13370000b90d:   48 89 07                mov    QWORD PTR [rdi],rax
+    13370000b910:   48 89 07                mov    QWORD PTR [rdi],rax
+    13370000b913:   48 89 07                mov    QWORD PTR [rdi],rax
+    13370000b916:   b9 8f 03 00 00          mov    ecx,0x38f
+    13370000b91b:   31 c0                   xor    eax,eax
+    13370000b91d:   31 d2                   xor    edx,edx
+    13370000b91f:   0f 30                   wrmsr
+
